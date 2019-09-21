@@ -1,3 +1,12 @@
 @import "../node_modules/bulma/css/bulma.css";
 
-body{padding:10px;}
+body{padding:1.5rem;}
+section{
+  margin:1.5rem 0;
+  border-bottom:4px solid pink;
+}
+p, span{font-size:48px;}
+
+form{display:inline-block;}
+
+main{max-width:600px;}
