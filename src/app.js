@@ -26,7 +26,6 @@ const findWeather = (location) => {
   fetch(`http://api.openweathermap.org/data/2.5/weather?q=${location}&APPID=24bc3889266a1fd87fecc9abc9dd9f33&units=metric`, { mode: 'cors' })
     .then((response) => response.json())
     .then((response) => {
-      console.log(response);
       const weather = parseWeather(response);
       displayWeather(weather);
     })
