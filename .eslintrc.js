@@ -15,5 +15,6 @@ module.exports = {
   },
   rules: {
      "no-console": "off"
+     "arrow-parens": "always"
   },
 };
