@@ -4,16 +4,26 @@
     <title>Weather</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
   <body>
-    <p>Hello world</p>
     <form>
-      <input name="location" id="location" type="text" >
-      <input type="submit" >
+      <div class="field has-addons">
+        <div class="control">
+          <input name="location" id="location" type="text" class="input">
+        </div>
+        <div class="control">
+          <input type="submit" value="New City" class="button">
+        </div>
+      </div>
     </form>
     <hr>
-    <p id="location"></p>
+    <button class="button" id="tempToggle">Toggle Temp</button>
+    <hr>
+    <p id="loc"></p>
     <p id="temp"></p>
+    <p id="icon"></p>
+    <p id="desc"></p>
     <script src="main.js"></script>
   </body>
 </html>
