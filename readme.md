@@ -26,3 +26,9 @@ npm install eslint --save-dev
 npx eslint --init
 
 npx eslint src
+
+
+## Site
+[demo](https://eri-b.github.io/weather-demo/)
+
+Built by [Eric](https://github.com/eri-b)
