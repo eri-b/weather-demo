@@ -12,7 +12,7 @@ const displayWeather = (weather) => {
   document.querySelector('#loc').innerHTML = weather.loc;
   document.querySelector('#temp').innerHTML = `${Math.round(weather.temp)}&#176;C`;
   document.querySelector('#desc').innerHTML = weather.desc.toUpperCase();
-  const iconurl = `http://openweathermap.org/img/w/${weather.icon}.png`;
+  const iconurl = `https://openweathermap.org/img/w/${weather.icon}.png`;
   document.querySelector('#icon img').src = iconurl;
   setGif(weather.desc);
 };
