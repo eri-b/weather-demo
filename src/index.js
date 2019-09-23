@@ -1,6 +1,6 @@
-import { events, findWeather } from './events';
+import events from './events';
+import findWeather from './app';
 
-const start = 'Brooklyn';
+const start = '11221, US';
 findWeather(start);
-
 events();

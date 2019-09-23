@@ -7,23 +7,41 @@
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
   </head>
   <body>
-    <form>
-      <div class="field has-addons">
-        <div class="control">
-          <input name="location" id="location" type="text" class="input">
+    <main>
+      <form>
+        <div class="field has-addons">
+          <div class="control">
+            <input name="location" id="location" type="text" class="input">
+          </div>
+          <div class="control">
+            <input type="submit" value="New City" class="button">
+          </div>
         </div>
-        <div class="control">
-          <input type="submit" value="New City" class="button">
-        </div>
-      </div>
-    </form>
-    <hr>
-    <button class="button" id="tempToggle">Toggle Temp</button>
-    <hr>
-    <p id="loc"></p>
-    <p id="temp"></p>
-    <p id="icon"></p>
-    <p id="desc"></p>
+      </form>
+
+      <button class="button ce" id="tempToggle">To &#176;F</button>
+      <hr>
+
+      <section>
+        <p id="loc"></p>
+      </section>
+
+      <section>
+        <p id="temp"></p>
+      </section>
+
+      <section>
+        <p id="icon"><img src="#" ></p>
+      </section>
+
+      <section>
+        <p id="desc"></p>
+      </section>
+
+      <section>
+        <img src="#" id="gif" >
+      </section>
+    </main>
     <script src="main.js"></script>
   </body>
 </html>

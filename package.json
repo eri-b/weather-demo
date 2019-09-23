@@ -16,6 +16,11 @@
     "webpack": "^4.40.2",
     "webpack-cli": "^3.3.9"
   },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
   "dependencies": {
     "bulma": "^0.7.5"
   }
